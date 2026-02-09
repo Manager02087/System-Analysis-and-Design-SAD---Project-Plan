@@ -11,10 +11,10 @@
 
 | Role | Name | Student ID | Contact |
 | :--- | :--- | :--- | :--- |
-| **Project Manager** | TEMUR SHIRINBOYEV | `202490298` | [💬 Telegram](https://t.me/@manager0208) |
-| **System Analyst** | ELBEK ISMOILOV | `202490143` | [💬 Telegram](https://t.me/@vip_ismoilov) |
-| **Database Architect** | SUXROB HAZRATQULOV | `202490129` | [💬 Telegram](https://t.me/@Hazratqulov_s) |
-| **UI/UX Designer** | ASADBEK ABDULLAJANOV | `202490010` | [💬 Telegram](https://t.me/@Divergent_11) |
+| **Project Manager** | TEMUR SHIRINBOYEV | `202490298` | [Telegram](https://t.me/manager0208) |
+| **System Analyst** | ELBEK ISMOILOV | `202490143` | [Telegram](https://t.me/vip_ismoilov) |
+| **Database Architect** | SUXROB HAZRATQULOV | `202490129` | [Telegram](https://t.me/Hazratqulov_s) |
+| **UI/UX Designer** | ASADBEK ABDULLAJANOV | `202490010` | [Telegram](https://t.me/Divergent_11) |
 
 ---
 
