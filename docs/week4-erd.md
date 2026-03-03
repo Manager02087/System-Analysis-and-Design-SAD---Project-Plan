@@ -48,3 +48,27 @@ Users,role,String,Foydalanuvchi huquqi (Admin/Pharmacist)
 Medicines,stock,Integer,Ombordagi qoldiq soni
 Medicines,expiry,Date,Dorining amal qilish muddati
 Sales,total,Decimal,Sotuvning umumiy summasi
+-- PharmaFlow Database Structure (PostgreSQL/MySQL)
+```sql
+CREATE TABLE Users (
+    user_id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    role VARCHAR(20) CHECK (role IN ('Admin', 'Pharmacist'))
+);
+
+CREATE TABLE Medicines (
+    med_id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    stock_quantity INT DEFAULT 0,
+    expiry_date DATE NOT NULL
+);
+
+CREATE TABLE Sales (
+    sale_id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES Users(user_id),
+    med_id INT REFERENCES Medicines(med_id),
+    quantity INT NOT NULL,
+    total_amount DECIMAL(10, 2),
+    sale_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
