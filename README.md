@@ -9,12 +9,12 @@
 
 ## 👥 Team Members & Roles
 
-| Role | Name | Student ID | Contact |
-| :--- | :--- | :--- | :--- |
-| **Project Manager** | TEMUR SHIRINBOYEV | `202490298` | [Telegram](https://t.me/manager0208) |
-| **System Analyst** | ELBEK ISMOILOV | `202490143` | [Telegram](https://t.me/vip_ismoilov) |
-| **Database Architect** | SUXROB HAZRATQULOV | `202490129` | [Telegram](https://t.me/Hazratqulov_s) |
-| **UI/UX Designer** | ASADBEK ABDULLAJANOV | `202490010` | [Telegram](https://t.me/Divergent_11) |
+| Role | Name | GitHub Profile | Student ID | Contact |
+| :--- | :--- | :--- | :--- | :--- |
+| **🥇 Project Manager** | **TEMUR SHIRINBOYEV** | [manager02087](https://github.com/Manager02087) | `202490298` | [Telegram](https://t.me/manager0208) |
+| **📊 System Analyst** | **ELBEK ISMOILOV** | [vipismoilov0111](https://github.com/vipismoilov0111) | `202490143` | [Telegram](https://t.me/vip_ismoilov) |
+| **🗄️ Database Architect** | **SUXROB HAZRATQULOV** | [suxrob0506](https://github.com/suxrob0506) | `202490129` | [Telegram](https://t.me/Hazratqulov_s) |
+| **🎨 UI/UX Designer** | **ASADBEK ABDULLAJANOV** | [asad1302](https://github.com/asadbekabdullajanov06-jpg) | `202490010` | [Telegram](https://t.me/Divergent_11) |
 
 ---
 
