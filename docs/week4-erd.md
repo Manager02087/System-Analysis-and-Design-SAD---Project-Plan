@@ -43,3 +43,8 @@ The **PharmaFlow** database is structured into three main modules, similar to ou
 **Relationships:**
 - **Primary Keys (PK):** Unique IDs for each entry.
 - **Foreign Keys (FK):** Used to create relationships between tables (e.g., Sales table links to both Medicines and Users).
+Table,Field,Data Type,Description
+Users,role,String,Foydalanuvchi huquqi (Admin/Pharmacist)
+Medicines,stock,Integer,Ombordagi qoldiq soni
+Medicines,expiry,Date,Dorining amal qilish muddati
+Sales,total,Decimal,Sotuvning umumiy summasi
