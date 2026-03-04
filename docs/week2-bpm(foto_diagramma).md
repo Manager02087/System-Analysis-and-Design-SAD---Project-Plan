@@ -31,4 +31,28 @@ graph TD
     style M fill:#fca2a2,stroke:#ff0000
     style D fill:#fff4dd,stroke:#d4a017
     style F fill:#fff4dd,stroke:#d4a017
+
+    subgraph Pharmacy_System_Process
+        direction TB
+        subgraph Customer_Lane [CUSTOMER]
+            A[Request Medicine] --> B[Provide Payment]
+            G[Receive Medicine & Receipt]
+        end
+
+        subgraph Pharmacist_Lane [PHARMACIST]
+            B1[Check Stock & Expiry] --> C{Is Available?}
+            C -- No --> D[Inform Customer]
+            C -- Yes --> E[Process Transaction]
+        end
+
+        subgraph Database_Lane [SYSTEM / DATABASE]
+            E --> F[Update Inventory & Save Sale]
+            F --> G
+        end
+    end
+
+    %% Styles
+    style Customer_Lane fill:#e3f2fd,stroke:#0d47a1
+    style Pharmacist_Lane fill:#fff9c4,stroke:#fbc02d
+    style Database_Lane fill:#f1f8e9,stroke:#388e3c
 ```
